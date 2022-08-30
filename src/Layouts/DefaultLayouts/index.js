@@ -9,7 +9,7 @@ function DefaultLayouts({ children }) {
       <div className="content ">{children}</div>
       {/* <Content /> */}
 
-      <Footer />
+      {/* <Footer /> */}
       {/* <Footer /> */}
     </div>
   );
