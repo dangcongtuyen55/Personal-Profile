@@ -96,7 +96,7 @@ export const Main = () => {
               Skills
             </p>
             <p className="py-4">
-              // These are the technologies I've worked with
+              ## These are the technologies I've worked with
             </p>
           </div>
 
@@ -125,14 +125,15 @@ export const Main = () => {
           </div>
         </div>
       </div>
-      <div name="project" className="w-full h-screen bg-gray-800 text-gray-300">
+
+      <div name="project" className="w-full h-full bg-gray-800 text-gray-300">
         <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
           <div className="pt-6">
             <p className="text-4xl font-bold inline border-b-4 border-pink-600">
               Projects
             </p>
             <p className="py-6">
-              // Here are some projects that I have worked on
+              ## Here are some projects that I have worked on
             </p>
           </div>
 
