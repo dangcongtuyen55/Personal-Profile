@@ -63,7 +63,7 @@ export const Navbar = () => {
           <Link to="/skills">Skills</Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link to="/project">Projects</Link>
+          <Link to="/projects">Projects</Link>
         </li>
         <li className="py-6 text-4xl">
           <Link to="/contact">Contact</Link>
