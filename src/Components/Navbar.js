@@ -65,7 +65,9 @@ export const Navbar = () => {
         <li className="py-6 text-4xl">
           <Link to="/project">Projects</Link>
         </li>
-        <li className="py-6 text-4xl">Contact</li>
+        <li className="py-6 text-4xl">
+          <Link to="/contact">Contact</Link>
+        </li>
       </ul>
 
       {/* Social icons */}
