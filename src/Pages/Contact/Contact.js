@@ -1,4 +1,5 @@
 import React from "react";
+import SendIcon from "@mui/icons-material/Send";
 
 export const Contact = () => {
   return (
@@ -16,7 +17,7 @@ export const Contact = () => {
             Contact
           </p>
           <p className="text-gray-300 py-4">
-            // Contact me by email:
+            ## Contact me by email:
             <span className="font-bold">dangcongtuyen55@gmail.com</span> and
             phone:<span className="font-bold">0815312150</span> or fill in your
             information in the form below 😁😁
@@ -24,16 +25,18 @@ export const Contact = () => {
         </div>
         <input
           type="text"
-          className="bg-white p-2"
+          className="bg-white p-2 "
           placeholder="fullname"
           name="fullname"
         />
+
         <input
           type="email"
-          className="bg-white p-2 my-4 "
+          className="bg-white p-2 my-4 peer border border-slate-400"
           placeholder="email"
           name="email"
         />
+
         <textarea
           className="bg-white p-2"
           name="message"
@@ -42,8 +45,11 @@ export const Contact = () => {
           rows="10"
           placeholder="Message"
         ></textarea>
-        <button className="text-white border-2 hover:bg-pink-600 px-4 py-3 my-8 mx-auto flex items-center">
+        <button className="w-[200px] group text-white rounded-lg border-2 hover:bg-pink-600 px-4 py-3 my-8 mx-auto flex justify-center items-center">
           Submit
+          <span>
+            <SendIcon className="ml-2" />
+          </span>
         </button>
       </form>
     </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+import SendIcon from "@mui/icons-material/Send";
 import HTML from "../../Assets/Images/html.png";
 import Css from "../../Assets/Images/css.png";
 import JS from "../../Assets/Images/js.png";
@@ -302,7 +303,7 @@ export const Main = () => {
               Contact
             </p>
             <p className="text-gray-300 py-4">
-              // Contact me by email:
+              ## Contact me by email:
               <span className="font-bold">dangcongtuyen55@gmail.com</span> and
               phone:<span className="font-bold">0815312150</span> or fill in
               your information in the form below 😁😁
@@ -328,8 +329,11 @@ export const Main = () => {
             rows="10"
             placeholder="Message"
           ></textarea>
-          <button className="text-white border-2 hover:bg-pink-600 px-4 py-3 my-8 mx-auto flex items-center">
+          <button className="w-[200px] group text-white rounded-lg border-2 hover:bg-pink-600 px-4 py-3 my-8 mx-auto flex justify-center items-center">
             Submit
+            <span>
+              <SendIcon className="ml-2" />
+            </span>
           </button>
         </form>
       </div>
