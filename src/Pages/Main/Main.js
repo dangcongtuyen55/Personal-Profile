@@ -9,7 +9,7 @@ import Mongodb from "../../Assets/Images/mongo.png";
 import Nodejs from "../../Assets/Images/Node.png";
 import Reactjs from "../../Assets/Images/react.png";
 import Github from "../../Assets/Images/github.png";
-import Me from "../../Assets/Images/me.png";
+import Me from "../../Assets/Images/congtuyen.jpg";
 import ProjectEcommerce from "../../Assets/Images/Project-Ecommerce.jpg";
 import "../../index.css";
 
@@ -54,11 +54,7 @@ export const Main = () => {
 
             {/* right side */}
             <div className="hidden flex-1 lg:flex justify-end items-end h-full">
-              <imgcd
-                className="transform skew-y-12"
-                src="https://scontent.fsgn2-3.fna.fbcdn.net/v/t39.30808-6/273504835_3046072845710496_7903040882535119182_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=8FBtenlWTBkAX_ISRsl&_nc_ht=scontent.fsgn2-3.fna&oh=00_AT8uzyz5iP_mCShxNMYj6R_z7T9mwvLFRQWF-0NSvdPdZA&oe=6311D137"
-                alt=""
-              />
+              <img className="transform skew-y-12" src={Me} alt="" />
             </div>
           </div>
         </div>
