@@ -1,5 +1,5 @@
 import "./App.css";
-import { Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { publicRoutes } from "./Routes/index";
 import { Header } from "./Layouts/DefaultLayouts/Header";
 import { DefaultLayouts } from "./Layouts";

@@ -11,7 +11,7 @@ export const Project = () => {
             Projects
           </p>
           <p className="py-6">
-            // Here are some projects that I have worked on
+            ## Here are some projects that I have worked on
           </p>
         </div>
 
